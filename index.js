@@ -26,5 +26,6 @@ function currentLine(katzDeliLine) {
       lineList[i] = `${i}. ${katzDeliLine}`
       i++;
     }
+    return lineList;
   }
 }
