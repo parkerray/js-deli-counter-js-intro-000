@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
     let lineList = [];
     let i = 0;
     while (i < katzDeliLine.length) {
-      lineList[i] = `${i+1}. ${katzDeliLine[i]} `
+      lineList[i] = ` ${i+1}. ${katzDeliLine[i]}`
       i++;
     }
     return `The line is currently: ${lineList}`;
