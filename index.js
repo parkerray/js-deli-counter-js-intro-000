@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
     let lineList = [];
     let i = 1;
     while (i < katzDeliLine.length) {
-      lineList[i] = `${i}. ${katzDeliLine}`
+      lineList[i] = `${i}. ${katzDeliLine[i]}`
       i++;
     }
     return lineList;
