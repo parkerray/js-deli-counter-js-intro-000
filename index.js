@@ -21,9 +21,9 @@ function currentLine(katzDeliLine) {
     return 'The line is currently empty.'
   } else {
     let lineList = [];
-    let i = 1;
+    let i = 0;
     while (i < katzDeliLine.length) {
-      lineList[i] = `${i}. ${katzDeliLine[i]}`
+      lineList[i] = `${i+1}. ${katzDeliLine[i]}`
       i++;
     }
     return `The line is currently: ${lineList}`;
